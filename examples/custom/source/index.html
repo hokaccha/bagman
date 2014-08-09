@@ -1,0 +1,23 @@
+{% extends '_layout.html' %}
+
+{% block title %}My Page{% endblock %}
+
+{% block content %}
+<div class="msg"></div>
+
+<h2>User</h2>
+
+<ul>
+  <li>Name: {{ user.name }}</li>
+  <li>Age: {{ user.age }}</li>
+</ul>
+
+<h2>News</h2>
+<div>
+{% for item in news %}
+  <h3>{{ item.title }}</h3>
+  <div>{{ item.body }}</div>
+{% endfor %}
+</div>
+
+{% endblock %}

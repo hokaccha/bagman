@@ -1,0 +1,19 @@
+{
+  "name": "bagman",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Kazuhito Hokamura <k.hokamura@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.1.0",
+    "del": "^0.1.1",
+    "mincer": "^1.1.2",
+    "node-sass": "^0.9.3",
+    "serve-static": "^1.5.0",
+    "swig": "^1.4.2",
+    "through2": "^0.6.0",
+    "underscore": "^1.6.0",
+    "vinyl-fs": "^0.3.6",
+    "yamljs": "^0.1.5"
+  }
+}

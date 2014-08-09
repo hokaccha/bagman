@@ -1,0 +1,1 @@
+window.helloMessage = 'Hello bagman!';
